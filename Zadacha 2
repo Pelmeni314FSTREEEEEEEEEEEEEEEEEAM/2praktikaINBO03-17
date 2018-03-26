@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+double a=-0.6,b=5.3,z=0,t=0;
+if (a<b) (z=sqrt(abs(a*a-b*b))); else (z=1-2*cos(a)*sin(b));
+if (z<b) (t=pow(z+a*a*b,1.0/3)); else if (z==b) (t=1.0-log10(z)+cos(a*a*b)); else (t=1.0/cos(z*a));
+printf ("a=%.1f\n",a);
+printf ("b=%.1f\n",b);
+printf ("z=%.2f\n",z);
+printf ("t=%.2f",t);
+system("pause")
+return 0;
+}
