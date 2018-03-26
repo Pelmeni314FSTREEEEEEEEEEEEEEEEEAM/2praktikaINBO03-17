@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+double a=3.5,x=-0.7, y=0, t=0;
+if (a<=x) y=a+log(x+a); else y=pow(abs(sin(a*x)),1.0/2);
+if (a>y) t=y/(a-x);
+else if (a==y) t=y/(a-x)+(a+x)/y/y;
+else if (a<y) t=tan(a*x)+cos(2*a*y);
+printf ("a=%.1f\n",a);
+printf ("x=%.1f\n",x);
+printf ("y=%.2f\n",y);
+printf ("t=%.2f",t);
+system("pause");
+return 0;
+}
