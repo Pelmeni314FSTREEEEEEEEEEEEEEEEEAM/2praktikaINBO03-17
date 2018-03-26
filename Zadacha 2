@@ -12,6 +12,6 @@ printf ("a=%.1f\n",a);
 printf ("b=%.1f\n",b);
 printf ("z=%.2f\n",z);
 printf ("t=%.2f",t);
-system("pause")
+system("pause");
 return 0;
 }
